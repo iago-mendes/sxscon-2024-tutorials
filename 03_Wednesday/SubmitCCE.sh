@@ -17,3 +17,5 @@ export SPECTRE_INPUT_FILE=$PWD/runs/CceExecutables/CharacteristicExtract.yaml
 export SPECTRE_EXECUTABLE=$PWD/runs/CceExecutables/CharacteristicExtract
 
 # Tutorial TODO: Add the run comman for invoking the exectuable
+$SPECTRE_EXECUTABLE --input-file $SPECTRE_INPUT_FILE
+
